@@ -24,7 +24,7 @@ eval "sh scripts/brew.sh"
 
 # Install Oh My Zsh
 printf "\n${BLUE}Installing Oh My Zsh${NORMAL}\n"
-eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
+eval 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
 
 # Browsers installations
 eval "open https://www.google.com/chrome/"

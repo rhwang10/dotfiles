@@ -6,7 +6,7 @@ MAGENTA="\033[35m"
 # Check Homebrew installation and install if not present on machine
 if test ! $(which brew); then
   printf "${WHITE}Installing Homebrew${NORMAL}\n"
-  eval "/usr/bin/ruby -e '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)'"
+  eval '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
 fi
 
 # Update Homebrew if it's already installed
