@@ -31,6 +31,7 @@ eval "open https://www.google.com/chrome/"
 
 # Communication software
 eval "open https://slack.com/downloads/mac"
+eval "open https://discordapp.com/download"
 
 # Important software
 eval "open https://www.spotify.com/us/download/mac/"
